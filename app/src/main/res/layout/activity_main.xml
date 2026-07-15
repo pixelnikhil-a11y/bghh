@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnPickModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Load .gguf model (pick from device or download)" />
+
+    <Button
+        android:id="@+id/btnOpenAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="2. Enable Accessibility permission" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="3. Press the gamepad button you want as the on/off toggle:" />
+
+    <Button
+        android:id="@+id/btnLearnGamepad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Waiting for button press…" />
+
+    <TextView
+        android:id="@+id/gamepadStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

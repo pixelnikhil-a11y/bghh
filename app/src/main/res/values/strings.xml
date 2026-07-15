@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Anki LLM Tooltip</string>
+    <string name="accessibility_service_description">Watches AnkiDroid for selected text and shows an LLM explanation bubble. Also lets a Bluetooth gamepad button toggle the feature on/off while reviewing.</string>
+</resources>
